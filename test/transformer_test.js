@@ -4,11 +4,12 @@ const chai = require('chai');
 const expect = chai.expect;
 const fs = require('fs');
 
-const transformer = require(__dirname + '/../lib/transformer');
+var bitmap = fs.readFileSync(__dirname + '/../img/palette-bitmap.bmp');
+console.log(bitmap);
 
-var bitmapData = transformer.bitmapData;
-console.log(bitmapData);
-
+var bitmapData = {
+  pixelArrayStart: bitmap.readUInt32LE(10)
+};
 
 describe('blue color transform function', () => {
   it('should transform the bitmap to use blue color scale', () => {
