@@ -5,7 +5,6 @@ const expect = chai.expect;
 const fs = require('fs');
 
 var bitmap = fs.readFileSync(__dirname + '/../img/palette-bitmap.bmp');
-console.log(bitmap);
 
 var bitmapData = {
   pixelArrayStart: bitmap.readUInt32LE(10)
@@ -34,6 +33,15 @@ describe('red color transform function', () => {
     var red = fs.readFileSync(__dirname + '/../img/red.bmp');
     for(var i = 54; i < bitmapData.pixelArrayStart; i += 4) {
       expect(red.readUInt8(i + 2)).to.eql(255);
+    }
+  });
+});
+
+describe('invert color transform function', () => {
+  it('should transform the bitmap to invert colors', () => {
+    var invert = fs.readFileSync(__dirname + '/../img/inverted.bmp');
+    for(var i = 54; i < bitmapData.pixelArrayStart; i ++) {
+      expect(invert.readUInt8(i)).to.eql(255 - bitmap[i]);
     }
   });
 });
