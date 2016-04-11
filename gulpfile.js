@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 
 const gulp = require('gulp');
@@ -50,6 +49,3 @@ gulp.task('mocha', () => {
 gulp.task('lint:all', ['lint:test', 'lint']);
 gulp.task('do-almost-everything', ['lint:test', 'lint', 'mocha']);
 gulp.task('default', ['do-almost-everything']);
-=======
-//TODO add gulpfile
->>>>>>> master
