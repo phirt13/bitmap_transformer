@@ -33,7 +33,7 @@ The project uses node async file handling and modular patterns.
 
 3. `node index` will not perform a transform you *must specify* your transform.  
 
-4. Observe you transformed images:
+4. Observe your transformed images:
 
 	`open /img`
 
