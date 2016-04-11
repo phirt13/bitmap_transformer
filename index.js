@@ -1,6 +1,8 @@
 'use strict';
 
-// TODO get rid of unecessary console.log's throughout
+// TODO get rid of unecessary console.log
+// TODO re-organize file naming
+
 
 const transformer = require(__dirname + '/lib/bitmap-data');
 
