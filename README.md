@@ -38,6 +38,11 @@ The project uses node async file handling and modular patterns.
 
 	`open /img`
 
+##About
+
+Created by Alex Hirt during a Code fellows 401 Advanced JavaScript course.  
+All code was written by me but concepts and bits and pieces were hashed out through discussion with my classmates.  
+
 ##Samples
 
 Regular:
@@ -63,8 +68,3 @@ Greyscale:
 Inverted:
 
 ![Inverted](/img/inverted.bmp)
-
-##About
-
-Created by Alex Hirt during a Code fellows 401 Advanced JavaScript course.  
-All code was written by me but concepts and bits and pieces were hashed out through discussion with my classmates.  
