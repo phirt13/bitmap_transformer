@@ -29,6 +29,7 @@ The project uses node async file handling and modular patterns.
 	- `blue`
 	- `green`
 	- `red`
+  - 'greyscale'
 	- `invert`
 
 3. `node index` will not perform a transform you *must specify* your transform.  
@@ -36,6 +37,12 @@ The project uses node async file handling and modular patterns.
 4. Observe your transformed images:
 
 	`open /img`
+
+##Samples
+
+Regular:
+
+![Regular](/img/LAND2.bmp)
 
 ##About
 
