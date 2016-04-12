@@ -44,6 +44,26 @@ Regular:
 
 ![Regular](/img/LAND2.bmp)
 
+Blue Tint:
+
+![Blue](/img/blue.bmp)
+
+Green Tint:
+
+![Green](/img/green.bmp)
+
+Red Tint:
+
+![Red](/img/red.bmp)
+
+Greyscale:
+
+![Grey](/img/greyscale.bmp)
+
+Inverted:
+
+![Inverted](/img/inverted.bmp)
+
 ##About
 
 Created by Alex Hirt during a Code fellows 401 Advanced JavaScript course.  
